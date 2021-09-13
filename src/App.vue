@@ -47,7 +47,7 @@ export default {
     },
     dateBuilder() {
       let dt = new Date()
-      let months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "November", "December"]
+      let months = ["Yanvar", "February", "March", "April", "May", "June", "July", "August", "September", "November", "December"]
       let days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
       let day = days[dt.getDay()];
       let date = dt.getDate()
